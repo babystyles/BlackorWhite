@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  BlackorWhite
+//
+//  Created by 林泽琛 on 16/1/26.
+//  Copyright © 2016年 林泽琛. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+#import "AppDelegate.h"
+#import "ActivityController.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+#define MAINSIZE [[UIScreen mainScreen]bounds].size
+#define IPHONE4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960),[[UIScreen mainScreen] currentMode].size) : NO)
+#define IPHONE5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136),[[UIScreen mainScreen] currentMode].size) : NO)
+#define IPHONE6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334),[[UIScreen mainScreen] currentMode].size) : NO)
+#define IPHONE6P ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208),[[UIScreen mainScreen] currentMode].size) : NO)
+#endif /* PrefixHeader_pch */

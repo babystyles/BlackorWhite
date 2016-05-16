@@ -15,6 +15,26 @@
 		53017C961C2FC20C00F37960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53017C941C2FC20C00F37960 /* LaunchScreen.storyboard */; };
 		53017CA11C2FC20C00F37960 /* BlackorWhiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53017CA01C2FC20C00F37960 /* BlackorWhiteTests.m */; };
 		53017CAC1C2FC20C00F37960 /* BlackorWhiteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53017CAB1C2FC20C00F37960 /* BlackorWhiteUITests.m */; };
+		53017CBB1C2FC25E00F37960 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53017CBA1C2FC25E00F37960 /* LeftSlideViewController.m */; };
+		53017CC51C2FC27F00F37960 /* LeftSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53017CBE1C2FC27F00F37960 /* LeftSortViewController.m */; };
+		53017CC61C2FC27F00F37960 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53017CC01C2FC27F00F37960 /* MainViewController.m */; };
+		53017CC71C2FC27F00F37960 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53017CC21C2FC27F00F37960 /* OtherViewController.m */; };
+		53017CC81C2FC27F00F37960 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53017CC41C2FC27F00F37960 /* RootNavigationController.m */; };
+		5320AC821C37A45B00D39FA4 /* MLKMenuPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320AC811C37A45B00D39FA4 /* MLKMenuPopover.m */; };
+		53A478231C4F823800BA00FE /* PellTableViewSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A478221C4F823800BA00FE /* PellTableViewSelect.m */; };
+		53D5D1FF1C2FC73000F3BF5D /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D1FE1C2FC73000F3BF5D /* MyTabBarController.m */; };
+		53D5D2031C2FC7E000F3BF5D /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D2021C2FC7E000F3BF5D /* MessageController.m */; };
+		53D5D2061C2FC83400F3BF5D /* LinkmanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D2051C2FC83400F3BF5D /* LinkmanController.m */; };
+		53D5D2091C2FC87100F3BF5D /* ActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D2081C2FC87100F3BF5D /* ActivityController.m */; };
+		53FC21DF1C6348110091E047 /* ZJSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC21DE1C6348110091E047 /* ZJSingle.m */; };
+		53FC21E21C6348FC0091E047 /* ZJSpreadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC21E11C6348FC0091E047 /* ZJSpreadCell.m */; };
+		53FC21E41C63539B0091E047 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53FC21E31C63539B0091E047 /* test.plist */; };
+		53FC2BFA1C3EA4F70088AA62 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC2BF91C3EA4F70088AA62 /* MainTableViewCell.m */; };
+		53FD28FB1C59E67300D57005 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53FD28F61C59E67300D57005 /* Roboto-Bold.ttf */; };
+		53FD28FC1C59E67300D57005 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53FD28F71C59E67300D57005 /* Roboto-Light.ttf */; };
+		53FD28FD1C59E67300D57005 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53FD28F81C59E67300D57005 /* Roboto-Medium.ttf */; };
+		53FD28FE1C59E67300D57005 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53FD28F91C59E67300D57005 /* Roboto-Regular.ttf */; };
+		53FD28FF1C59E67300D57005 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53FD28FA1C59E67300D57005 /* Roboto-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,41 @@
 		53017CA71C2FC20C00F37960 /* BlackorWhiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackorWhiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53017CAB1C2FC20C00F37960 /* BlackorWhiteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackorWhiteUITests.m; sourceTree = "<group>"; };
 		53017CAD1C2FC20C00F37960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53017CB91C2FC25E00F37960 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		53017CBA1C2FC25E00F37960 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		53017CBD1C2FC27F00F37960 /* LeftSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSortViewController.h; sourceTree = "<group>"; };
+		53017CBE1C2FC27F00F37960 /* LeftSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSortViewController.m; sourceTree = "<group>"; };
+		53017CBF1C2FC27F00F37960 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		53017CC01C2FC27F00F37960 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		53017CC11C2FC27F00F37960 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		53017CC21C2FC27F00F37960 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		53017CC31C2FC27F00F37960 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		53017CC41C2FC27F00F37960 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		5320AC801C37A45B00D39FA4 /* MLKMenuPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKMenuPopover.h; sourceTree = "<group>"; };
+		5320AC811C37A45B00D39FA4 /* MLKMenuPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKMenuPopover.m; sourceTree = "<group>"; };
+		53A478211C4F823800BA00FE /* PellTableViewSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PellTableViewSelect.h; sourceTree = "<group>"; };
+		53A478221C4F823800BA00FE /* PellTableViewSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PellTableViewSelect.m; sourceTree = "<group>"; };
+		53D5D1FD1C2FC73000F3BF5D /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		53D5D1FE1C2FC73000F3BF5D /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		53D5D2011C2FC7E000F3BF5D /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
+		53D5D2021C2FC7E000F3BF5D /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
+		53D5D2041C2FC83400F3BF5D /* LinkmanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkmanController.h; sourceTree = "<group>"; };
+		53D5D2051C2FC83400F3BF5D /* LinkmanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkmanController.m; sourceTree = "<group>"; };
+		53D5D2071C2FC87100F3BF5D /* ActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityController.h; sourceTree = "<group>"; };
+		53D5D2081C2FC87100F3BF5D /* ActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityController.m; sourceTree = "<group>"; };
+		53F8EB4E1C57207B00E7F3BC /* BlackorWhite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlackorWhite-Prefix.pch"; sourceTree = "<group>"; };
+		53FC21DD1C6348110091E047 /* ZJSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSingle.h; sourceTree = "<group>"; };
+		53FC21DE1C6348110091E047 /* ZJSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSingle.m; sourceTree = "<group>"; };
+		53FC21E01C6348FC0091E047 /* ZJSpreadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSpreadCell.h; sourceTree = "<group>"; };
+		53FC21E11C6348FC0091E047 /* ZJSpreadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSpreadCell.m; sourceTree = "<group>"; };
+		53FC21E31C63539B0091E047 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		53FC2BF81C3EA4F70088AA62 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		53FC2BF91C3EA4F70088AA62 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		53FD28F61C59E67300D57005 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		53FD28F71C59E67300D57005 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		53FD28F81C59E67300D57005 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		53FD28F91C59E67300D57005 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		53FD28FA1C59E67300D57005 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +156,14 @@
 		53017C851C2FC20C00F37960 /* BlackorWhite */ = {
 			isa = PBXGroup;
 			children = (
+				53A478201C4F823800BA00FE /* CXPopView */,
+				53FC2BF71C3EA1750088AA62 /* Tablecell */,
+				5320AC7F1C37A45B00D39FA4 /* MenuPopover */,
+				5320AC7E1C37A43000D39FA4 /* New Group */,
+				53D5D2001C2FC76A00F3BF5D /* ThreeTabBarController */,
+				53D5D1FC1C2FC67000F3BF5D /* Public */,
+				53D5D1FB1C2FC43100F3BF5D /* LeftSlideView */,
+				53017CBC1C2FC27F00F37960 /* Controller */,
 				53017C891C2FC20C00F37960 /* AppDelegate.h */,
 				53017C8A1C2FC20C00F37960 /* AppDelegate.m */,
 				53017C8C1C2FC20C00F37960 /* ViewController.h */,
@@ -138,6 +201,97 @@
 				53017CAD1C2FC20C00F37960 /* Info.plist */,
 			);
 			path = BlackorWhiteUITests;
+			sourceTree = "<group>";
+		};
+		53017CBC1C2FC27F00F37960 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53017CBD1C2FC27F00F37960 /* LeftSortViewController.h */,
+				53017CBE1C2FC27F00F37960 /* LeftSortViewController.m */,
+				53017CBF1C2FC27F00F37960 /* MainViewController.h */,
+				53017CC01C2FC27F00F37960 /* MainViewController.m */,
+				53017CC11C2FC27F00F37960 /* OtherViewController.h */,
+				53017CC21C2FC27F00F37960 /* OtherViewController.m */,
+				53017CC31C2FC27F00F37960 /* RootNavigationController.h */,
+				53017CC41C2FC27F00F37960 /* RootNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5320AC7E1C37A43000D39FA4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		5320AC7F1C37A45B00D39FA4 /* MenuPopover */ = {
+			isa = PBXGroup;
+			children = (
+				5320AC801C37A45B00D39FA4 /* MLKMenuPopover.h */,
+				5320AC811C37A45B00D39FA4 /* MLKMenuPopover.m */,
+			);
+			path = MenuPopover;
+			sourceTree = "<group>";
+		};
+		53A478201C4F823800BA00FE /* CXPopView */ = {
+			isa = PBXGroup;
+			children = (
+				53A478211C4F823800BA00FE /* PellTableViewSelect.h */,
+				53A478221C4F823800BA00FE /* PellTableViewSelect.m */,
+			);
+			path = CXPopView;
+			sourceTree = "<group>";
+		};
+		53D5D1FB1C2FC43100F3BF5D /* LeftSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				53017CB91C2FC25E00F37960 /* LeftSlideViewController.h */,
+				53017CBA1C2FC25E00F37960 /* LeftSlideViewController.m */,
+			);
+			name = LeftSlideView;
+			sourceTree = "<group>";
+		};
+		53D5D1FC1C2FC67000F3BF5D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				53FC21E31C63539B0091E047 /* test.plist */,
+				53FD28F61C59E67300D57005 /* Roboto-Bold.ttf */,
+				53FD28F71C59E67300D57005 /* Roboto-Light.ttf */,
+				53FD28F81C59E67300D57005 /* Roboto-Medium.ttf */,
+				53FD28F91C59E67300D57005 /* Roboto-Regular.ttf */,
+				53FD28FA1C59E67300D57005 /* Roboto-Thin.ttf */,
+				53D5D1FD1C2FC73000F3BF5D /* MyTabBarController.h */,
+				53D5D1FE1C2FC73000F3BF5D /* MyTabBarController.m */,
+				53F8EB4E1C57207B00E7F3BC /* BlackorWhite-Prefix.pch */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		53D5D2001C2FC76A00F3BF5D /* ThreeTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				53D5D2011C2FC7E000F3BF5D /* MessageController.h */,
+				53D5D2021C2FC7E000F3BF5D /* MessageController.m */,
+				53D5D2041C2FC83400F3BF5D /* LinkmanController.h */,
+				53D5D2051C2FC83400F3BF5D /* LinkmanController.m */,
+				53FC21DD1C6348110091E047 /* ZJSingle.h */,
+				53FC21DE1C6348110091E047 /* ZJSingle.m */,
+				53D5D2071C2FC87100F3BF5D /* ActivityController.h */,
+				53D5D2081C2FC87100F3BF5D /* ActivityController.m */,
+				53FC21E01C6348FC0091E047 /* ZJSpreadCell.h */,
+				53FC21E11C6348FC0091E047 /* ZJSpreadCell.m */,
+			);
+			name = ThreeTabBarController;
+			sourceTree = "<group>";
+		};
+		53FC2BF71C3EA1750088AA62 /* Tablecell */ = {
+			isa = PBXGroup;
+			children = (
+				53FC2BF81C3EA4F70088AA62 /* MainTableViewCell.h */,
+				53FC2BF91C3EA4F70088AA62 /* MainTableViewCell.m */,
+			);
+			name = Tablecell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +397,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53FD28FF1C59E67300D57005 /* Roboto-Thin.ttf in Resources */,
 				53017C961C2FC20C00F37960 /* LaunchScreen.storyboard in Resources */,
+				53FD28FE1C59E67300D57005 /* Roboto-Regular.ttf in Resources */,
+				53FC21E41C63539B0091E047 /* test.plist in Resources */,
 				53017C931C2FC20C00F37960 /* Assets.xcassets in Resources */,
+				53FD28FD1C59E67300D57005 /* Roboto-Medium.ttf in Resources */,
+				53FD28FC1C59E67300D57005 /* Roboto-Light.ttf in Resources */,
+				53FD28FB1C59E67300D57005 /* Roboto-Bold.ttf in Resources */,
 				53017C911C2FC20C00F37960 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +431,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				53017C8E1C2FC20C00F37960 /* ViewController.m in Sources */,
+				53017CC61C2FC27F00F37960 /* MainViewController.m in Sources */,
+				53FC2BFA1C3EA4F70088AA62 /* MainTableViewCell.m in Sources */,
+				53D5D1FF1C2FC73000F3BF5D /* MyTabBarController.m in Sources */,
+				53017CC51C2FC27F00F37960 /* LeftSortViewController.m in Sources */,
+				53D5D2091C2FC87100F3BF5D /* ActivityController.m in Sources */,
 				53017C8B1C2FC20C00F37960 /* AppDelegate.m in Sources */,
 				53017C881C2FC20C00F37960 /* main.m in Sources */,
+				53017CC81C2FC27F00F37960 /* RootNavigationController.m in Sources */,
+				53D5D2031C2FC7E000F3BF5D /* MessageController.m in Sources */,
+				53017CC71C2FC27F00F37960 /* OtherViewController.m in Sources */,
+				53FC21DF1C6348110091E047 /* ZJSingle.m in Sources */,
+				5320AC821C37A45B00D39FA4 /* MLKMenuPopover.m in Sources */,
+				53017CBB1C2FC25E00F37960 /* LeftSlideViewController.m in Sources */,
+				53D5D2061C2FC83400F3BF5D /* LinkmanController.m in Sources */,
+				53FC21E21C6348FC0091E047 /* ZJSpreadCell.m in Sources */,
+				53A478231C4F823800BA00FE /* PellTableViewSelect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +585,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "BlackorWhite/BlackorWhite-Prefix.pch";
 				INFOPLIST_FILE = BlackorWhite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lin.BlackorWhite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +599,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "BlackorWhite/BlackorWhite-Prefix.pch";
 				INFOPLIST_FILE = BlackorWhite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lin.BlackorWhite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +676,7 @@
 				53017CB21C2FC20C00F37960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53017CB31C2FC20C00F37960 /* Build configuration list for PBXNativeTarget "BlackorWhiteTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +685,7 @@
 				53017CB51C2FC20C00F37960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53017CB61C2FC20C00F37960 /* Build configuration list for PBXNativeTarget "BlackorWhiteUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +694,7 @@
 				53017CB81C2FC20C00F37960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

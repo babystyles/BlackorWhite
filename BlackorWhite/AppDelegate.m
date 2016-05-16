@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainViewController.h"
+#import "LeftSortViewController.h"
+#define SCREENHIGHT [[UIScreen mainScreen]bounds].size.height
+#define SCREENWIDTH [[UIScreen mainScreen]bounds].size.width
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,39 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    if (MAINSIZE.height>480) {
+        
+        
+        self.autoSizeScaleX = MAINSIZE.width/320;
+        self.autoSizeScaleY = MAINSIZE.height/568;
+        
+        
+    }else{
+        
+        self.autoSizeScaleX = 1.0;
+        self.autoSizeScaleY = 1.0;
+        
+    }
+    
+    NSLog(@"wwwwwwwwwwwwwww%f",self.autoSizeScaleY);
+    
+    self.window  = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.mytabbar=[[MyTabBarController alloc]init];
+    self.leftSoutVC = [[LeftSortViewController alloc]init];
+    UINavigationController * leftNC = [[UINavigationController alloc]initWithRootViewController:self.leftSoutVC];
+    
+    self.leftSlideVC = [[LeftSlideViewController alloc]initWithLeftView:leftNC andMainView:self.mytabbar];
+    self.leftSlideVC.title = @"左视图";
+    
+    self.window.rootViewController = self.leftSlideVC;
+    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"BackImage"] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+//    [[UINavigationBar appearance] setBackgroundColor:[UIColor clearColor]];
     return YES;
 }
 
